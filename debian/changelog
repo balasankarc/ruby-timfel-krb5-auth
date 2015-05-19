@@ -1,5 +1,5 @@
-ruby-timfel-krb5-auth (0.8.3-1) UNRELEASED; urgency=medium
+ruby-timfel-krb5-auth (0.8.3-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #785734)
 
- -- Balasankar C <balasankarc@autistici.org>  Tue, 19 May 2015 23:30:42 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Mon, 02 Feb 2015 21:04:06 +0530

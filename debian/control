@@ -3,12 +3,12 @@ Section: ruby
 Priority: optional
 Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
 Uploaders: Balasankar C <balasankarc@autistici.org>
-Build-Depends: debhelper (>= 7.0.50~), gem2deb
-Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 7.0.50~), gem2deb, libkrb5-dev
+Standards-Version: 3.9.6
 Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-timfel-krb5-auth.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-timfel-krb5-auth.git;a=summary
 Homepage: http://rubyforge.org/projects/krb5-auth/
-Testsuite: autopkgtest
+Testsuite: autopkgtest-pkg-ruby
 XS-Ruby-Versions: all
 
 Package: ruby-timfel-krb5-auth
@@ -16,4 +16,8 @@ Architecture: any
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
 Description: Kerberos binding for Ruby
- <insert long description, indented with spaces>
+ This gem provides Kerberos binding for Ruby language. 
+ .
+ Kerberos is a computer network authentication protocol which works on the 
+ basis of 'tickets' to allow nodes communicating over a non-secure network 
+ to prove their identity to one another in a secure manner.
