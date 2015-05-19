@@ -1,0 +1,49 @@
+--- !ruby/object:Gem::Specification
+name: timfel-krb5-auth
+version: !ruby/object:Gem::Version
+  version: 0.8.3
+platform: ruby
+authors:
+- Chris Lalancette
+autorequire: Krb5Auth
+bindir: bin
+cert_chain: []
+date: 2015-01-13 00:00:00.000000000 Z
+dependencies: []
+description: 
+email: clalance@redhat.com
+executables: []
+extensions:
+- ext/extconf.rb
+extra_rdoc_files: []
+files:
+- README
+- Rakefile
+- examples/example.rb
+- ext/extconf.rb
+- ext/ruby_krb5_auth.c
+homepage: http://rubyforge.org/projects/krb5-auth/
+licenses:
+- LGPL
+metadata: {}
+post_install_message: 
+rdoc_options: []
+require_paths:
+- ext
+required_ruby_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: 
+rubygems_version: 2.2.2
+signing_key: 
+specification_version: 4
+summary: Kerberos binding for Ruby
+test_files: []
